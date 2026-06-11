@@ -117,15 +117,15 @@ LLM_MAX_TOKENS=4000
 │       └── orchestrator.py    # Multi-agent orchestrator
 ├── data/
 │   ├── sp500_companies.csv    # Your dataset
-│   └── sp500.duckdb          # Auto-generated database
+│   └── sp500.duckdb           # Auto-generated database
 ├── tests/
 │   ├── check_columns.py       # Verify CSV columns
-│   └── test_api.py           # API test suite
-├── streamlit_app.py          # Streamlit frontend
-├── run_evaluation.py         # Evaluation runner
-├── requirements.txt          # Python dependencies
-├── README.md                # This file
-└── ARCHITECTURE.md          # Detailed architecture docs
+│   └── test_api.py            # API test suite
+├── streamlit_app.py           # Streamlit frontend
+├── run_evaluation.py          # Evaluation runner
+├── requirements.txt           # Python dependencies
+├── README.md                  # This file
+└── ARCHITECTURE.md            # Detailed architecture docs
 ```
 
 ## 🏃 Running the System
